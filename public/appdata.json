@@ -1,0 +1,362 @@
+[
+  {
+    "image": "https://i.ibb.co.com/NnCg6JBH/Navlogo.png",
+    "title": "Productivity Pro",
+    "companyName": "QuantumCode",
+    "id": 1,
+    "description": "Productivity Pro is an AI-powered productivity tracker designed to help users optimize focus, manage tasks, and enhance daily efficiency. The app provides intelligent insights and recommendations to streamline workflows, reduce distractions, and prioritize important tasks. Users can track their time, set goals, and monitor progress with detailed analytics and visual dashboards. Productivity Pro also includes smart reminders, task categorization, and habit tracking features to keep users organized and on schedule. Its AI assistant suggests strategies to improve productivity, identify bottlenecks, and maintain consistent performance throughout the day. With a clean, distraction-free interface, the app allows users to focus on what matters most, whether working, studying, or managing personal projects. By combining task management, time tracking, and AI-powered insights, Productivity Pro empowers users to boost efficiency, maintain focus, and achieve their goals more effectively every day.",
+    "size": 58,
+    "reviews": 1532,
+    "ratingAvg": 4.7,
+    "downloads": 320000,
+    "ratings": [
+      { "name": "1 star", "count": 52 },
+      { "name": "2 star", "count": 87 },
+      { "name": "3 star", "count": 203 },
+      { "name": "4 star", "count": 487 },
+      { "name": "5 star", "count": 703 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/twgnnPNh/devworks-logo.webp",
+    "title": "FlowTimer",
+    "companyName": "DevWorks",
+    "id": 2,
+    "description": "FlowTimer is a minimalist productivity app designed to help users focus and manage their time effectively using the Pomodoro technique. It allows you to break work into structured intervals, promoting sustained concentration and reducing burnout. The app includes customizable work and break durations, visual timers, and gentle notifications to keep you on track. FlowTimer also provides productivity analytics, allowing you to review completed sessions, track focus patterns, and identify periods of high efficiency. With light and dark mode options and a clean, distraction-free interface, the app ensures a seamless user experience. Users can integrate background sounds, such as white noise or nature sounds, to enhance concentration during work sessions. Whether for studying, coding, writing, or professional tasks, FlowTimer helps users maximize productivity, maintain focus, and develop effective time management habits.",
+    "size": 42,
+    "reviews": 894,
+    "ratingAvg": 4.5,
+    "downloads": 210000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 75 },
+      { "name": "3 star", "count": 160 },
+      { "name": "4 star", "count": 320 },
+      { "name": "5 star", "count": 299 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/N20Tq6LY/CodeLab.png",
+    "title": "FinTrack",
+    "companyName": "CodeLab Studio",
+    "id": 3,
+    "description": "FinTrack is a comprehensive personal finance app designed to help users take control of their money and make informed financial decisions. It allows you to easily track expenses, categorize spending, and monitor income, giving you a clear overview of your financial habits. The app provides tools for creating budgets, setting savings goals, and receiving alerts when you approach spending limits. With detailed charts, reports, and analytics, FinTrack helps users identify spending patterns, optimize finances, and plan for the future. The app also offers AI-powered insights and recommendations to improve savings and reduce unnecessary expenditures. Users can link multiple bank accounts and payment methods for seamless tracking, ensuring all financial activity is captured accurately. Whether managing personal finances, preparing for large purchases, or simply staying organized, FinTrack empowers users to take control of their money, make smarter decisions, and achieve financial stability with ease.",
+    "size": 64,
+    "reviews": 2340,
+    "ratingAvg": 4.8,
+    "downloads": 540000,
+    "ratings": [
+      { "name": "1 star", "count": 68 },
+      { "name": "2 star", "count": 92 },
+      { "name": "3 star", "count": 190 },
+      { "name": "4 star", "count": 490 },
+      { "name": "5 star", "count": 1500 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/whK0JyqS/cloud-sync.png",
+    "title": "NoteVerse",
+    "companyName": "CloudSync Apps",
+    "id": 4,
+    "description": "NoteVerse is a modern note-taking app designed to help users organize, capture, and collaborate on ideas efficiently. It offers real-time synchronization across devices, ensuring your notes are always up-to-date whether you’re using a mobile device, tablet, or desktop. The app supports markdown formatting, allowing for structured, visually appealing notes and documents. Offline capabilities ensure that you can continue working even without an internet connection, with changes syncing automatically once you’re back online. NoteVerse also includes collaboration features, enabling users to share notes, co-edit documents, and comment on content with colleagues, friends, or team members. Its intuitive interface makes organizing notes simple, with folders, tags, and search functionality to quickly find what you need. Whether for personal journaling, professional projects, or academic work, NoteVerse empowers users to capture thoughts, manage tasks, and collaborate effectively from anywhere.",
+    "size": 48,
+    "reviews": 1305,
+    "ratingAvg": 4.6,
+    "downloads": 275000,
+    "ratings": [
+      { "name": "1 star", "count": 63 },
+      { "name": "2 star", "count": 81 },
+      { "name": "3 star", "count": 160 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 601 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/x8Y1Xr5m/nextgenapp.webp",
+    "title": "TaskMate",
+    "companyName": "NextGen Apps",
+    "id": 5,
+    "description": "TaskMate is a collaborative task management app designed for small teams and project-oriented work. It allows users to create projects, assign tasks, and monitor progress in real time, ensuring efficient teamwork and organization. The app features Kanban boards, analytics dashboards, and progress tracking tools that provide a clear overview of project status and team performance. TaskMate also includes built-in chat functionality, enabling seamless communication and collaboration among team members. Users can set deadlines, priorities, and reminders to keep tasks on track and maintain accountability. The app supports file attachments, comments, and activity logs, making it easy to share updates and collaborate effectively. With a user-friendly interface and customizable workflow options, TaskMate adapts to diverse team needs and project types. By combining task management, communication, and data visualization, TaskMate helps teams stay organized, productive, and aligned toward achieving their goals efficiently.",
+    "size": 55,
+    "reviews": 980,
+    "ratingAvg": 4.3,
+    "downloads": 190000,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 210 },
+      { "name": "4 star", "count": 270 },
+      { "name": "5 star", "count": 290 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/DsPcFHy/Edutech.png",
+    "title": "LearnX",
+    "companyName": "EduTech Labs",
+    "id": 6,
+    "description": "LearnX is an interactive coding education app designed to make learning programming engaging and effective. It offers AI-powered tutors that provide real-time feedback on exercises, helping users understand concepts quickly and efficiently. The app covers a wide range of programming languages, including Python, JavaScript, and more, with hands-on projects that reinforce learning through practical application. Gamified challenges and quizzes make the learning experience fun, motivating users to progress and master skills. LearnX tracks progress, highlights strengths and weaknesses, and provides personalized learning paths to ensure steady improvement. Users can participate in coding competitions, collaborate with peers, and gain practical experience through real-world projects. The app’s intuitive interface and interactive tutorials make complex programming concepts accessible to learners of all levels. By combining AI guidance, gamification, and project-based learning, LearnX empowers users to develop coding skills effectively and confidently, preparing them for professional and personal growth in technology.",
+    "size": 70,
+    "reviews": 3400,
+    "ratingAvg": 4.9,
+    "downloads": 680000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 65 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 610 },
+      { "name": "5 star", "count": 2505 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Rpzb12rw/7252830.jpg",
+    "title": "Musify",
+    "companyName": "SoundWave Inc.",
+    "id": 7,
+    "description": "Musify is a personalized music streaming app designed to deliver a seamless and immersive listening experience. It offers AI-curated playlists that adapt to your mood, time of day, and listening habits, ensuring you always have the perfect soundtrack. The app allows users to discover new artists, genres, and tracks based on intelligent recommendations tailored to individual tastes. Musify features high-quality audio streaming, offline listening, and customizable playlists for ultimate convenience. Users can create and share playlists with friends, follow favorite artists, and explore trending music from around the world. The app’s adaptive recommendation engine learns from your interactions, continually refining suggestions to match your preferences. Musify also includes smart search, mood-based stations, and genre-specific channels, making music discovery effortless. With an intuitive interface and seamless integration across devices, Musify ensures a smooth and enjoyable listening experience. Whether relaxing, working, or exercising, Musify keeps your music experience dynamic, engaging, and perfectly aligned with your lifestyle.",
+    "size": 92,
+    "reviews": 5120,
+    "ratingAvg": 4.7,
+    "downloads": 1200000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 190 },
+      { "name": "3 star", "count": 480 },
+      { "name": "4 star", "count": 1000 },
+      { "name": "5 star", "count": 3330 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/pBtxVD4g/9678161.jpg",
+    "title": "FitLife",
+    "companyName": "HealthPro Apps",
+    "id": 8,
+    "description": "FitLife is a comprehensive fitness and wellness app designed to help users achieve their health goals through personalized guidance. It offers AI-powered workout suggestions tailored to your fitness level, preferences, and goals, ensuring every exercise session is effective and engaging. The app allows you to log workouts, track progress, and monitor key health metrics such as calories burned, heart rate, and weight changes. FitLife also provides nutrition guidance, meal planning tips, and diet tracking to complement your fitness routine. With progress charts, reminders, and motivational features, the app keeps users accountable and inspired to stay consistent. FitLife includes customizable workout plans, exercise demonstrations, and tracking for different activity types, from strength training to cardio. Its intuitive interface ensures seamless navigation, while AI insights help optimize performance and prevent injuries. Whether you’re a beginner or an advanced athlete, FitLife empowers you to maintain a healthy lifestyle, achieve your fitness targets, and stay motivated every day.",
+    "size": 85,
+    "reviews": 2760,
+    "ratingAvg": 4.4,
+    "downloads": 460000,
+    "ratings": [
+      { "name": "1 star", "count": 170 },
+      { "name": "2 star", "count": 190 },
+      { "name": "3 star", "count": 310 },
+      { "name": "4 star", "count": 780 },
+      { "name": "5 star", "count": 1310 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/j9dD5b6H/4873163.jpg",
+    "title": "CodeFlow",
+    "companyName": "QuantumCode",
+    "id": 9,
+    "description": "CodeFlow is a cloud-based collaborative integrated development environment (IDE) designed for developers and remote teams. It provides intelligent code completion, real-time debugging, and seamless collaboration tools, making coding more efficient and productive. With CodeFlow, multiple developers can work on the same project simultaneously, track changes, and merge updates effortlessly. The app supports a wide range of programming languages and frameworks, providing flexibility for diverse development needs. Its intuitive interface and smart suggestions reduce coding errors and accelerate development workflows. CodeFlow also includes version control integration, project management features, and secure cloud storage, ensuring that code is safe and accessible from anywhere. Developers can test, deploy, and monitor applications directly within the platform, streamlining the development lifecycle. By combining collaboration, intelligence, and cloud convenience, CodeFlow empowers teams to build, innovate, and deliver high-quality software efficiently, no matter where they are located.",
+    "size": 120,
+    "reviews": 1450,
+    "ratingAvg": 4.8,
+    "downloads": 340000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 140 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 790 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/FkWLzWVf/6715039.jpg",
+    "title": "Photofy",
+    "companyName": "LensLab",
+    "id": 10,
+    "description": "Photofy is a powerful and creative photo editing app designed for photography enthusiasts, social media creators, and professionals. It offers a wide range of filters, AI-powered retouch tools, and editing features that allow users to transform ordinary shots into stunning, professional-quality images. The app provides intuitive controls for adjusting brightness, contrast, saturation, and other visual elements, giving full creative freedom. Photofy also includes advanced tools for background removal, object enhancement, and artistic effects, making complex edits simple and efficient. Users can instantly share their creations on social media or with friends, streamlining the workflow from editing to sharing. With customizable templates, collage options, and creative overlays, Photofy encourages experimentation and artistic expression. The app’s user-friendly interface ensures smooth navigation and quick access to all features. By combining powerful AI technology with intuitive editing tools, Photofy empowers users to elevate their photography skills, create eye-catching visuals, and bring their creative visions to life effortlessly.",
+    "size": 98,
+    "reviews": 4120,
+    "ratingAvg": 4.6,
+    "downloads": 890000,
+    "ratings": [
+      { "name": "1 star", "count": 240 },
+      { "name": "2 star", "count": 310 },
+      { "name": "3 star", "count": 490 },
+      { "name": "4 star", "count": 970 },
+      { "name": "5 star", "count": 2110 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/KzrsRZYZ/top-view-world-tourism-day-with-lettering.jpg",
+    "title": "Travella",
+    "companyName": "WanderSoft",
+    "id": 11,
+    "description": "Travella is an all-in-one travel planning app designed for travelers, explorers, and adventure seekers. It helps users plan trips efficiently by providing tools to discover destinations, compare flights, and manage itineraries seamlessly. With Travella, you can organize every aspect of your journey, from booking accommodations to scheduling activities and sightseeing tours. The app offers personalized travel recommendations based on preferences, past trips, and popular trends. Users can track expenses, create travel checklists, and receive real-time updates on flights and transportation. Travella also includes features for sharing itineraries with friends or travel companions, making collaboration easy and convenient. The app’s intuitive interface and interactive maps simplify navigation and enhance the travel experience. Whether planning a weekend getaway or an international adventure, Travella ensures you stay organized, informed, and inspired throughout your journey. By centralizing all travel-related tools, Travella empowers users to explore the world confidently and make the most of every trip.",
+    "size": 77,
+    "reviews": 1580,
+    "ratingAvg": 4.2,
+    "downloads": 310000,
+    "ratings": [
+      { "name": "1 star", "count": 160 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 310 },
+      { "name": "4 star", "count": 410 },
+      { "name": "5 star", "count": 500 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/gb5bKpkG/7725857.jpg",
+    "title": "MediCall",
+    "companyName": "HealthTech Co.",
+    "id": 12,
+    "description": "MediCall is a comprehensive healthcare app designed to provide instant access to medical consultations, prescriptions, and health tracking from anywhere. With MediCall, users can connect with certified doctors through secure video or chat consultations, ensuring timely medical advice without the need for physical visits. The app allows for digital prescriptions that can be shared with pharmacies, making the process convenient and efficient. Health tracking features help monitor vital signs, medication schedules, and wellness metrics, empowering users to take control of their health. MediCall also provides personalized reminders, appointment scheduling, and medical history management for seamless healthcare organization. With a secure and user-friendly interface, all personal data is protected while offering easy navigation. The app integrates with wearable devices to track fitness, heart rate, and other health indicators. MediCall is ideal for individuals, families, and remote patients seeking reliable healthcare access anytime. By combining technology and medical expertise, MediCall ensures users stay informed, healthy, and connected to healthcare professionals whenever needed.",
+    "size": 68,
+    "reviews": 2034,
+    "ratingAvg": 4.5,
+    "downloads": 410000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 170 },
+      { "name": "3 star", "count": 220 },
+      { "name": "4 star", "count": 580 },
+      { "name": "5 star", "count": 944 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/6RhZRDPj/10483131.png",
+    "title": "ChatZen",
+    "companyName": "ByteTalk Labs",
+    "id": 13,
+    "description": "ChatZen is a secure, AI-enhanced messaging platform designed to make communication private, efficient, and intelligent. It combines end-to-end encryption with advanced AI features to protect your conversations while providing smart assistance during chats. The app offers real-time message suggestions, context-aware replies, and automated summaries to help users communicate more effectively. ChatZen supports multimedia messaging, file sharing, and group chats, making it suitable for both personal and professional use. With customizable notifications, chat themes, and privacy settings, you can tailor the app to your preferences. The AI assistant helps manage your messages, filter important conversations, and even schedule follow-ups. ChatZen also includes features like message recall, secure cloud backup, and multi-device sync for seamless communication. Its intuitive interface ensures a smooth user experience, while powerful security protocols maintain confidentiality at all times. Designed for privacy-conscious users, ChatZen empowers you to stay connected, organized, and productive without compromising security.",
+    "size": 63,
+    "reviews": 2850,
+    "ratingAvg": 4.7,
+    "downloads": 650000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 280 },
+      { "name": "4 star", "count": 720 },
+      { "name": "5 star", "count": 1600 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/tw9BrWSR/0e7fd505-b7e3-4f5e-bdd9-6d44075b4fc5.jpg",
+    "title": "SoundBeat",
+    "companyName": "TuneWorks",
+    "id": 14,
+    "description": "SoundBeat is a versatile music creation and editing app designed for musicians, producers, and audio enthusiasts. It allows you to record, mix, and master tracks with studio-grade precision directly from your device. The app features an intuitive interface that makes complex audio editing accessible to both beginners and professionals. SoundBeat provides a range of tools, including multi-track recording, virtual instruments, and audio effects, enabling users to craft high-quality music anywhere. With real-time editing, seamless looping, and precise waveform visualization, you can refine every detail of your compositions. The app also supports exporting projects in multiple formats for sharing or further production. Collaborate with other musicians, remix tracks, and experiment with creative sound design features to enhance your music. SoundBeat includes customizable settings and AI-assisted suggestions to optimize your workflow and improve audio quality. Whether you’re producing, performing, or experimenting, SoundBeat empowers you to bring your musical ideas to life with professional-level control and creativity.",
+    "size": 88,
+    "reviews": 1920,
+    "ratingAvg": 4.4,
+    "downloads": 380000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 170 },
+      { "name": "3 star", "count": 280 },
+      { "name": "4 star", "count": 570 },
+      { "name": "5 star", "count": 750 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/W4DVg9VB/4890827.jpg",
+    "title": "Calmi",
+    "companyName": "MindWave Labs",
+    "id": 15,
+    "description": "Calmi is your daily mental wellness companion designed to help you achieve balance, relaxation, and mindfulness. The app offers guided meditations, soothing sleep sounds, and stress-relief sessions tailored to your personal needs. With Calmi, you can create a consistent self-care routine that fits seamlessly into your day, whether it’s a quick mindfulness break or an extended relaxation session. The app features customizable meditation programs for beginners and advanced users, helping you build focus, reduce anxiety, and improve overall mental health. Sleep sounds and ambient audio tracks promote deep, restorative sleep, while stress-relief exercises guide you through breathing techniques, visualization, and mindful movement. Calmi also includes progress tracking, reminders, and daily tips to encourage long-term wellness habits. Designed with a calming interface and user-friendly navigation, Calmi makes mental wellness accessible and enjoyable. By using Calmi regularly, you can cultivate inner peace, enhance focus, and maintain emotional balance, supporting a healthier and happier lifestyle every day.",
+    "size": 52,
+    "reviews": 1720,
+    "ratingAvg": 4.8,
+    "downloads": 430000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 900 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/93tscnXs/54740.jpg",
+    "title": "Readify",
+    "companyName": "BookLoop",
+    "id": 16,
+    "description": "Discover a world of books tailored just for you. Readify offers personalized book recommendations based on your reading habits. Highlight important passages to revisit later. Sync your reading progress across all your devices seamlessly. Create custom reading lists for different moods or genres. Track your reading streaks and set goals to stay motivated. Engage with interactive summaries and notes for deeper understanding. Explore new authors and trending books curated by AI. Share your favorite books and insights with friends and the community. Get AI-driven suggestions for what to read next. Organize your library with tags, categories, and ratings. Access offline reading anytime, anywhere without interruptions. Receive weekly insights into your reading patterns and progress. Participate in reading challenges and earn achievements. Annotate books with personal notes for future reference. Search and filter books by author, genre, or popularity easily. Connect with other readers to exchange reviews and tips. Enjoy a distraction-free reading interface with night mode. Import and export your reading history for full control. Make reading a daily habit and turn every moment into a learning experience.",
+    "size": 66,
+    "reviews": 1980,
+    "ratingAvg": 4.6,
+    "downloads": 290000,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 210 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 1070 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/pjHM8hrD/geometric-3d-icon-1020-744.jpg",
+    "title": "PixlPro",
+    "companyName": "DesignSoft",
+    "id": 17,
+    "description": "PixlPro is a professional image editing and design tool crafted for designers, creators, and visual enthusiasts. It provides advanced features for photo editing, graphic design, and digital artwork, allowing users to create high-quality visuals effortlessly. With layer blending, filters, and vector export support, PixlPro makes complex editing tasks intuitive and precise. The app includes AI-powered tools that assist in automating repetitive processes, enhancing productivity, and optimizing creative workflows. Users can manage multiple projects simultaneously within a distraction-free interface that keeps focus on the design. Detailed project analytics help track progress, performance, and efficiency over time. PixlPro supports seamless collaboration, making it easy to share work and receive feedback from team members or clients. Customizable shortcuts and toolsets speed up the workflow, while advanced color correction and adjustment features allow professional-grade results. The app also provides export options in multiple formats for versatile use. PixlPro empowers creators to bring their ideas to life, streamline their creative process, and achieve professional-quality designs with ease.",
+    "size": 120,
+    "reviews": 3020,
+    "ratingAvg": 4.5,
+    "downloads": 620000,
+    "ratings": [
+      { "name": "1 star", "count": 210 },
+      { "name": "2 star", "count": 260 },
+      { "name": "3 star", "count": 350 },
+      { "name": "4 star", "count": 850 },
+      { "name": "5 star", "count": 1350 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/S7BBfJqt/vector-education-logo-779267-2083.jpg",
+    "title": "LangGen",
+    "companyName": "EduVerse",
+    "id": 18,
+    "description": "LangGen is an innovative language learning app designed for learners of all levels. It allows you to practice speaking, listening, reading, and writing skills in multiple languages with the help of AI-powered tutors that provide personalized guidance and feedback. The app features real-time conversation practice using advanced voice recognition technology, offering instant corrections and pronunciation tips to help improve fluency. Interactive lessons are tailored to your skill level and pace, while detailed performance analytics track your progress. Gamified challenges and achievements make learning fun and engaging. LangGen also includes real-time translation tools, practical scenario simulations, and vocabulary-building exercises using interactive flashcards and spaced repetition. You can join global language challenges, set personalized learning goals, and receive daily practice reminders. The app teaches cultural context and idiomatic expressions alongside language skills, and an offline mode ensures uninterrupted learning. With customizable lessons focused on your weak areas, LangGen makes language learning accessible, effective, and enjoyable, empowering you to confidently communicate in a new language.",
+    "size": 82,
+    "reviews": 2640,
+    "ratingAvg": 4.7,
+    "downloads": 510000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 140 },
+      { "name": "3 star", "count": 290 },
+      { "name": "4 star", "count": 630 },
+      { "name": "5 star", "count": 1460 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/HD8867gZ/technological-ecology-concept-23-2148424173.jpg",
+    "title": "EcoTrack",
+    "companyName": "GreenMind Tech",
+    "id": 19,
+    "description": "EcoTrack is your personal guide to living a more sustainable and eco-friendly lifestyle. It helps you track your daily carbon footprint with ease. Monitor energy consumption, water usage, and transportation habits. Get personalized recommendations to reduce environmental impact. Analyze trends over time to see how your habits affect the planet. Set eco-goals and track your progress towards achieving them. Receive reminders to adopt greener practices in everyday life. EcoTrack provides tips for sustainable shopping and diet choices. Learn how small changes can make a big difference for the environment. Share your achievements with friends and encourage eco-friendly habits. Discover innovative ways to recycle and reduce waste effectively. Get insights into your household’s energy efficiency and savings. Track your travel and commuting impact to make smarter choices. Visualize your carbon footprint with intuitive charts and graphs. EcoTrack integrates with smart home devices to monitor energy use. Receive alerts about sustainable events and local eco-initiatives. Collaborate with community challenges to promote environmental awareness. Analyze the long-term benefits of adopting eco-friendly habits. Stay motivated with badges, achievements, and progress tracking. EcoTrack empowers you to make meaningful changes for a healthier planet.",
+    "size": 60,
+    "reviews": 1340,
+    "ratingAvg": 4.3,
+    "downloads": 240000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 130 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 410 },
+      { "name": "5 star", "count": 500 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/pBr78j0H/clock-with-arrow-time.jpg",
+    "title": "TimeLog",
+    "companyName": "FreelanceHub",
+    "id": 20,
+    "description": "TimeLog is a comprehensive productivity and time-tracking application designed for freelancers, remote teams, and professionals. It allows users to track work sessions accurately and monitor daily activities effortlessly. Analyze productivity trends over weeks and months to identify patterns and improve efficiency. Set customizable goals and deadlines for each project to stay on track. Generate detailed reports of time spent on tasks and clients for accurate invoicing. Integrates with popular project management tools and calendars for seamless workflow. Offers a visual dashboard with charts, graphs, and timelines for better insights. Supports reminders, notifications, and alerts for pending tasks or deadlines. Provides offline tracking capabilities when internet connectivity is limited. Includes team collaboration features for shared tasks and progress tracking. Enables tagging and categorization of tasks for organized work management. Offers automatic idle detection to ensure accurate time logging. Supports export of data in multiple formats including CSV and PDF. Provides AI-powered suggestions to improve focus and task prioritization. Customizable interface with light and dark modes for user comfort. Syncs across multiple devices to maintain updated records. Includes secure authentication and data encryption for privacy protection. Allows integration with accounting software for streamlined invoicing. Facilitates time audits to ensure accountability and productivity optimization. TimeLog helps users stay productive, organized, and efficient every day.",
+    "size": 74,
+    "reviews": 1820,
+    "ratingAvg": 4.6,
+    "downloads": 410000,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 230 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 880 }
+    ]
+  }
+]

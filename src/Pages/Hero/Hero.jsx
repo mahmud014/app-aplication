@@ -22,12 +22,20 @@ const Hero = () => {
           </p>
         </div>
         <div className="my-5 flex flex-row gap-10 justify-center items-center">
-          <Link>
+          <Link
+            to="https://play.google.com/store/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <button className="btn">
               <img className="h-5 w-5" src={googlePlay} /> Google Play
             </button>
           </Link>
-          <Link>
+          <Link
+            to="https://www.apple.com/app-store/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <button className="btn">
               <img className="h-5 w-5" src={appStore} /> App Store
             </button>
