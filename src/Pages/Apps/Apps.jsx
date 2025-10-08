@@ -1,10 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import useApps from "../../Hooks/useApps";
 import AppCard from "../../Components/AppCard/AppCard";
-import { Link } from "react-router";
+import { IoIosSearch } from "react-icons/io";
+import ErrorNotFound from "../ErrorPage/ErrorNotFound";
 
 const Apps = () => {
   const { apps } = useApps();
+  const [search, setSearch] = useState("");
+  const term = search.trim().toLowerCase();
+  const searchApps = term
+    ? apps.filter((app) => app.title.toLowerCase().includes(term))
+    : apps;
   return (
     <div className="w-11/12 mx-auto">
       <div className="text-center p-10">
@@ -14,31 +20,27 @@ const Apps = () => {
         </p>
       </div>
       <div className="flex justify-between items-center mb-5">
-        <h1>({apps.length}) Apps Found</h1>
+        <h1 className="font-bold text-2xl">({searchApps.length}) Apps Found</h1>
         <label className="input">
-          <svg
-            className="h-[1em] opacity-50"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-          >
-            <g
-              strokeLinejoin="round"
-              strokeLinecap="round"
-              strokeWidth="2.5"
-              fill="none"
-              stroke="currentColor"
-            >
-              <circle cx="11" cy="11" r="8"></circle>
-              <path d="m21 21-4.3-4.3"></path>
-            </g>
-          </svg>
-          <input type="search" required placeholder="Search" />
+          <span className="label">
+            <IoIosSearch />
+          </span>
+          <input
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            type="search"
+            placeholder="Search Apps..."
+          />
         </label>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-        {apps.map((app) => (
-          <AppCard key={app.id} app={app} />
-        ))}
+        {searchApps.length === 0 ? (
+          <p className="text-center col-span-full text-gray-500 text-lg py-10">
+            <ErrorNotFound />
+          </p>
+        ) : (
+          searchApps.map((app) => <AppCard key={app.id} app={app} />)
+        )}
       </div>
       <div className="flex justify-center items-center p-10"></div>
     </div>

@@ -6,7 +6,7 @@ import useApps from "../../Hooks/useApps";
 
 const Home = () => {
   const { apps, loading, error } = useApps();
-  const homeApps = apps.slice(0, 8);
+  const homeApps = apps.slice(8, 16);
   return (
     <div>
       <Hero />
