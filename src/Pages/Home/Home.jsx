@@ -1,10 +1,11 @@
 import React from "react";
 import Hero from "../Hero/Hero";
-import { useLoaderData } from "react-router";
+import { Link } from "react-router";
 import AppCard from "../../Components/AppCard/AppCard";
+import useApps from "../../Hooks/useApps";
 
 const Home = () => {
-  const apps = useLoaderData();
+  const { apps, loading, error } = useApps();
   const homeApps = apps.slice(0, 8);
   return (
     <div>
@@ -22,9 +23,11 @@ const Home = () => {
           ))}
         </div>
         <div className="flex justify-center items-center p-10">
-          <button className="btn shadow-none bg-gradient-to-r from-[#0072ff] to-[#39bcf6] text-white border-none hover:from-[#39bcf6] hover:to-[#0072ff] px-10">
-            Show All
-          </button>
+          <Link to="/apps">
+            <button className="btn shadow-none bg-gradient-to-r from-[#0072ff] to-[#39bcf6] text-white border-none hover:from-[#39bcf6] hover:to-[#0072ff] px-10">
+              Show All
+            </button>
+          </Link>
         </div>
       </div>
     </div>
