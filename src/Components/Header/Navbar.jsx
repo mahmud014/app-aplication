@@ -1,15 +1,24 @@
 import React from "react";
+import Navlogo from "../../assets/Navlogo.png";
+import { Link } from "react-router";
+import { IoLogoGithub } from "react-icons/io";
 
 const Navbar = () => {
   const links = (
     <>
-      <li className="m-2">Home</li>
-      <li className="m-2">Apps</li>
-      <li className="m-2">Installation</li>
+      <Link to="/">
+        <li className="m-2">Home</li>
+      </Link>
+      <Link to="/apps">
+        <li className="m-2">Apps</li>
+      </Link>
+      <Link to="/installation">
+        <li className="m-2">Installation</li>
+      </Link>
     </>
   );
   return (
-    <div className="navbar bg-base-100 shadow-sm">
+    <div className="navbar bg-[#001127] shadow-sm">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -36,13 +45,29 @@ const Navbar = () => {
             {links}
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">daisyUI</a>
+        <Link
+          to="/"
+          className="btn bg-[#001127] border-none shadow-none text-xl flex items-center"
+        >
+          <img className="w-13 h-13" src={Navlogo} alt="QuantumCode Logo" />
+          <span className="text-xl font-bold text-white">
+            Quantum<span className="text-[#39bcf6]">Code</span>
+          </span>
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{links}</ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">Button</a>
+        <Link
+          to="https://github.com/mahmud014"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn shadow-none bg-gradient-to-r from-[#0072ff] to-[#39bcf6] text-white border-none hover:from-[#39bcf6] hover:to-[#0072ff]"
+        >
+          <IoLogoGithub />
+          Contribute
+        </Link>
       </div>
     </div>
   );
