@@ -7,19 +7,19 @@ const Navbar = () => {
   const links = (
     <>
       <NavLink to="/">
-        <li className="m-2 hover:link">Home</li>
+        <li className="m-2 text-xl hover:link">Home</li>
       </NavLink>
       <NavLink
         to="/apps"
         className={({ isActive }) => (isActive ? "text-[#39bcf6] link" : "")}
       >
-        <li className="m-2 hover:link">Apps</li>
+        <li className="m-2 text-xl hover:link">Apps</li>
       </NavLink>
       <NavLink
         to="/installation"
         className={({ isActive }) => (isActive ? "text-[#39bcf6] link" : "")}
       >
-        <li className="m-2 hover:link">Installation</li>
+        <li className="m-2 text-xl hover:link">Installation</li>
       </NavLink>
     </>
   );
