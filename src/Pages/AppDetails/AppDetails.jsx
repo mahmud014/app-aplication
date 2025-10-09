@@ -5,12 +5,14 @@ import downloadIcon from "../../assets/icon-downloads.png";
 import ratingIcon from "../../assets/icon-ratings.png";
 import reviewsIcon from "../../assets/icon-review.png";
 import { addToStoredDB } from "../../utility/addToDB";
+import Loading from "../../Components/Loading/Loading";
+import Rechart from "../../Components/ReChart/Rechart";
 
 const AppDetails = () => {
   const { id } = useParams();
   const { apps, loading } = useApps();
   const findApp = apps.find((app) => app.id === Number(id));
-  if (loading) return <p>Loading....</p>;
+  if (loading) return <Loading />;
   const {
     image,
     title,
@@ -20,6 +22,7 @@ const AppDetails = () => {
     size,
     reviews,
     description,
+    ratings,
   } = findApp || {};
 
   const handleInstall = (id) => {
@@ -67,7 +70,9 @@ const AppDetails = () => {
       </div>
       <div className="divider divider-end"></div>
       <div>
-        <h1 className="text-xl font-bold">Ratings</h1>
+        <h1 className="text-xl font-bold">
+          <Rechart ratings={ratings} />
+        </h1>
       </div>
       <div className="divider divider-end"></div>
       <div>

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import useApps from "../../Hooks/useApps";
 import { getStoredApp } from "../../utility/addToDB";
 import InstallationApps from "./InstallationApps";
+import Loading from "../../Components/Loading/Loading";
 
 const Installation = () => {
   const { apps, loading } = useApps();
@@ -36,7 +37,7 @@ const Installation = () => {
     }
   };
 
-  if (loading) return <p className="text-center mt-10">Loading...</p>;
+  if (loading) return <Loading />;
 
   return (
     <div className="w-11/12 mx-auto mt-10">
