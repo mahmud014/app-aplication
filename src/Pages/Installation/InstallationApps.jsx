@@ -1,8 +1,34 @@
 import React from "react";
 import { IoIosStar } from "react-icons/io";
 import { HiOutlineDownload } from "react-icons/hi";
-const InstallationApps = ({ app }) => {
-  const { image, title, downloads, ratingAvg, size } = app;
+import { removeFromStoredDB } from "../../utility/addToDB";
+import Swal from "sweetalert2";
+import withReactContent from "sweetalert2-react-content";
+const MySwal = withReactContent(Swal);
+const InstallationApps = ({ app, onUninstall }) => {
+  const { image, title, downloads, ratingAvg, size, id } = app;
+
+  const handUninstall = (id) => {
+    MySwal.fire({
+      title: "Are you sure?",
+      text: `Do you want to uninstall "${title}"?`,
+      icon: "warning",
+      showCancelButton: true,
+      confirmButtonColor: "#3085d6",
+      cancelButtonColor: "#d33",
+      confirmButtonText: "Yes, Uninstall it!",
+    }).then((result) => {
+      if (result.isConfirmed) {
+        removeFromStoredDB(id);
+        if (onUninstall) onUninstall(id);
+        MySwal.fire({
+          title: "Uninstall!",
+          text: "Your file has been Uninstall.",
+          icon: "success",
+        });
+      }
+    });
+  };
   return (
     <div className="shadow-sm my-4">
       <div className="flex justify-between p-4 shadow-sm items-center rounded-lg">
@@ -24,7 +50,12 @@ const InstallationApps = ({ app }) => {
           </div>
         </div>
         <div>
-          <button className="bg-[#00d390] btn text-white">Uninstall</button>
+          <button
+            onClick={() => handUninstall(id)}
+            className="bg-[#00d390] btn text-white"
+          >
+            Uninstall
+          </button>
         </div>
       </div>
     </div>
