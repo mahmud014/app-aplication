@@ -56,7 +56,9 @@ const Installation = () => {
           onChange={(e) => handleSort(e.target.value)}
           className="select appearance-none"
         >
-          <option disabled={true}>Sort By: {sort ? sort : ""}</option>
+          <option value="" disabled>
+            Sort By {sort ? sort : ""}
+          </option>
           <option value={"size"}>Sort By Size</option>
           <option value={"ratings"}>Sort By Rating</option>
         </select>
