@@ -8,6 +8,7 @@ const Installation = () => {
   const { apps, loading } = useApps();
   const [myInstalledApps, setMyInstalledApps] = useState([]);
   const [sort, setSort] = useState("");
+
   useEffect(() => {
     if (!apps || apps.length === 0) return;
 
@@ -42,14 +43,16 @@ const Installation = () => {
   return (
     <div className="w-11/12 mx-auto mt-10">
       <div className="text-center my-5">
-        <h1 className="text-4xl  font-bold mb-6 text-gray-800">
+        <h1 className="text-4xl font-bold mb-6 text-gray-800">
           Your Installed Apps
         </h1>
         <p>Explore All Trending Apps on the Market Developed by us</p>
       </div>
-      <div className="flex justify-between items-center">
+
+      <div className="flex justify-between items-center mb-4">
         <h1 className="font-bold text-2xl">
-          {myInstalledApps.length} App Found
+          {myInstalledApps.length} App{myInstalledApps.length !== 1 ? "s" : ""}{" "}
+          Found
         </h1>
         <select
           value={sort}
@@ -63,14 +66,21 @@ const Installation = () => {
           <option value={"ratings"}>Sort By Rating</option>
         </select>
       </div>
+
       <div className="">
-        {myInstalledApps.map((app) => (
-          <InstallationApps
-            key={app.id}
-            app={app}
-            onUninstall={handleUninstall}
-          ></InstallationApps>
-        ))}
+        {myInstalledApps.length === 0 ? (
+          <p className="text-center text-gray-500 text-lg py-10">
+            Not yet installed apps
+          </p>
+        ) : (
+          myInstalledApps.map((app) => (
+            <InstallationApps
+              key={app.id}
+              app={app}
+              onUninstall={handleUninstall}
+            />
+          ))
+        )}
       </div>
     </div>
   );

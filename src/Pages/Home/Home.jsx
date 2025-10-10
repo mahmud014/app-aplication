@@ -10,15 +10,15 @@ const Home = () => {
   const { apps, loading, error } = useApps();
   if (loading)
     return (
-      <p className="text-center p-10">
+      <div className="text-center p-10">
         <Loading />
-      </p>
+      </div>
     );
   if (error)
     return (
-      <p className="text-center p-10 text-red-500">
+      <div className="text-center p-10 text-red-500">
         <Errorpage />
-      </p>
+      </div>
     );
   const homeApps = apps.slice(8, 16) || [];
   return (
