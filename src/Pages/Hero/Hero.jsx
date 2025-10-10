@@ -15,10 +15,13 @@ const Hero = () => {
             </span>{" "}
             Apps
           </h1>
-          <p className="text-center text-gray-500 font-semibold my-5">
+          <p
+            className="text-center text-gray-500 font-semibold my-5 mx-10 
+              md:whitespace-pre-line lg:whitespace-pre-line"
+          >
             Build modern web and desktop apps with speed and precision.
-            QuantumCode provides an intuitive environment, seamless integration,
-            and powerful tools for developers of all levels.
+            QuantumCode provides an intuitive {"\n"}environment, seamless
+            integration, and powerful tools for developers of all levels.
           </p>
         </div>
         <div className="my-5 flex flex-row gap-10 justify-center items-center">
