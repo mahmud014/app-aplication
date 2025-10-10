@@ -51,8 +51,7 @@ const Installation = () => {
 
       <div className="flex justify-between items-center mb-4">
         <h1 className="font-bold text-2xl">
-          {myInstalledApps.length} App{myInstalledApps.length !== 1 ? "s" : ""}{" "}
-          Found
+          {myInstalledApps.length} Apps Found
         </h1>
         <select
           value={sort}
