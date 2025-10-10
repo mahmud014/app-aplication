@@ -18,7 +18,7 @@ const Apps = () => {
   useEffect(() => {
     if (search) {
       setLoading(true);
-      const timer = setTimeout(() => setLoading(false), 300); // small delay
+      const timer = setTimeout(() => setLoading(false), 300);
       return () => clearTimeout(timer);
     } else {
       setLoading(false);
@@ -53,9 +53,9 @@ const Apps = () => {
             <Loading />
           </div>
         ) : searchApps.length === 0 ? (
-          <p className="text-center col-span-full text-gray-500 text-lg py-10">
+          <div className="text-center col-span-full text-gray-500 text-lg py-10">
             <ErrorNotFound />
-          </p>
+          </div>
         ) : (
           searchApps.map((app) => <AppCard key={app.id} app={app} />)
         )}

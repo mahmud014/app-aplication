@@ -3,10 +3,24 @@ import Hero from "../Hero/Hero";
 import { Link } from "react-router";
 import AppCard from "../../Components/AppCard/AppCard";
 import useApps from "../../Hooks/useApps";
+import Loading from "../../Components/Loading/Loading";
+import Errorpage from "../ErrorPage/Errorpage";
 
 const Home = () => {
   const { apps, loading, error } = useApps();
-  const homeApps = apps.slice(8, 16);
+  if (loading)
+    return (
+      <p className="text-center p-10">
+        <Loading />
+      </p>
+    );
+  if (error)
+    return (
+      <p className="text-center p-10 text-red-500">
+        <Errorpage />
+      </p>
+    );
+  const homeApps = apps.slice(8, 16) || [];
   return (
     <div>
       <Hero />
