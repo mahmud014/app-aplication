@@ -1,17 +1,24 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useParams } from "react-router";
 import useApps from "../../Hooks/useApps";
 import downloadIcon from "../../assets/icon-downloads.png";
 import ratingIcon from "../../assets/icon-ratings.png";
 import reviewsIcon from "../../assets/icon-review.png";
-import { addToStoredDB } from "../../utility/addToDB";
+import { addToStoredDB, getStoredApp } from "../../utility/addToDB";
 import Loading from "../../Components/Loading/Loading";
 import Rechart from "../../Components/ReChart/Rechart";
 
 const AppDetails = () => {
   const { id } = useParams();
   const { apps, loading } = useApps();
+  const [isInstalled, setInstalled] = useState(false);
+
   const findApp = apps.find((app) => app.id === Number(id));
+
+  useEffect(() => {
+    const storedApps = getStoredApp();
+    setInstalled(storedApps.includes(Number(id)));
+  }, [id]);
   if (loading) return <Loading />;
   const {
     image,
@@ -26,7 +33,9 @@ const AppDetails = () => {
   } = findApp || {};
 
   const handleInstall = (id) => {
+    if (isInstalled) return;
     addToStoredDB(id);
+    setInstalled(true);
   };
   return (
     <div className="w-11/12 mx-auto card bg-base-100 shadow-sm p-8">
@@ -60,10 +69,17 @@ const AppDetails = () => {
           </div>
           <div className="my-4">
             <button
-              onClick={() => handleInstall(id)}
-              className="btn bg-[#00d390] text-white"
+              onClick={() => {
+                if (!isInstalled) handleInstall(Number(id));
+              }}
+              disabled={isInstalled}
+              className={`btn  text-white ${
+                isInstalled
+                  ? "!bg-[#00d390] cursor-not-allowed opacity-90"
+                  : "!bg-[#00d390] hover:!bg-[#00c080]"
+              } `}
             >
-              Install Now ({size}MB)
+              {isInstalled ? "Installed" : `Install Now (${size}MB)`}
             </button>
           </div>
         </div>

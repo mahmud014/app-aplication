@@ -15,22 +15,14 @@ const getStoredApp = () => {
 const addToStoredDB = (id) => {
   const storedAppData = getStoredApp();
 
-  if (storedAppData.includes(id)) {
-    MySwal.fire({
-      icon: "error",
-      title: "Oops...",
-      text: "All Ready Install!",
-    });
-  } else {
-    storedAppData.push(id);
-    const app = JSON.stringify(storedAppData);
-    localStorage.setItem("installApps", app);
-    MySwal.fire({
-      icon: "success",
-      title: "Installed!",
-      text: "App has been installed successfully!",
-    });
-  }
+  storedAppData.push(id);
+  const app = JSON.stringify(storedAppData);
+  localStorage.setItem("installApps", app);
+  MySwal.fire({
+    icon: "success",
+    title: "Installed!",
+    text: "App has been installed successfully!",
+  });
 };
 const removeFromStoredDB = (id) => {
   const storedApps = JSON.parse(localStorage.getItem("installApps")) || [];
