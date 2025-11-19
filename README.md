@@ -1,32 +1,105 @@
-# App Name
+## ⚡ QuantumCode
+QuantumCode is a modern development environment for building web and desktop apps with speed and precision. It offers an intuitive interface, seamless integration, and powerful developer tools suitable for all levels.
 
-QuantumCode
+## 📸 Screenshots 
 
-## Description
+## 🧾 Table of Contents
+- About
+- Features
+- Tech Stack
+- Screenshots / Demo
+- Getting Started
+- Installation
+- Usage
+- Contributing
+- License
+- Contact
 
-Build modern web and desktop apps with speed and precision. QuantumCode provides an intuitive environment, seamless integration, and powerful tools for developers of all levels.
+## 📌 About
+QuantumCode helps developers accelerate their workflow with an integrated environment. It provides code management, visual tools, alerts, charts, and local storage capabilities in a sleek and responsive interface.
 
-## Technologies Used
+### ✅ Features
+- Modern web and desktop app interface
 
-- **Frontend:** React, Tailwind CSS, DaisyUI
-- **Routing:** React Router
-- **Icons:** react-icons
-- **State Management & Hooks:** useState, useEffect, custom hooks
-- **Other Tools:** LocalStorage for app storage, SweetAlert2 for alerts, Recharts for charts
+- Project management with local storage
 
-# React + Vite
+- Dynamic charts using Recharts
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Alerts and confirmations with SweetAlert2
 
-Currently, two official plugins are available:
+- Fully responsive design (Desktop & Mobile)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Custom hooks for state management
 
-## React Compiler
+- Clean and intuitive UI
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 💻 Tech Stack
+### Frontend
+- ⚛️ React (Vite)
+- 🎨 Tailwind CSS
+- 💎 DaisyUI
 
-## Expanding the ESLint configuration
+### Routing & Navigation
+- React Router DOM
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Icons & Visuals
+- react-icons
+- Recharts (charts & graphs)
+
+### State & Storage
+- useState, useEffect, custom hooks
+- LocalStorage
+
+### Other Tools
+- SweetAlert2 (alerts & notifications)
+
+### Hosting
+- Netlify
+
+## 🔗 Live Demo
+https://quantumcodeapp.netlify.app/
+
+## 🏁 Getting Started
+Follow these steps to run QuantumCode locally.
+
+## 📥 Installation
+
+### 1️⃣ Clone the repository
+
+git clone https://github.com/yourusername/quantumcode.git
+cd quantumcode
+
+
+### 2️⃣ Install dependencies
+npm install
+
+### 3️⃣ Start the development server
+npm run dev
+
+## App will run at:
+➡️ http://localhost:5173
+
+## 🧪 Usage
+- Open the app in your browser
+- Manage projects
+- Use charts for data visualization
+- Get notifications using SweetAlert2
+- Save your work locally
+
+## 🤝 Contributing
+
+- Contributions are welcome!
+- Fork the repository
+- Create a new branch (git checkout -b feature/YourFeature)
+- Commit changes (git commit -m "Add new feature")
+- Push (git push origin feature/YourFeature)
+- Create a Pull Request
+
+## 📄 License
+This project is licensed under the MIT License.
+
+## 👨‍💻 Developer
+- Author: Md. Shukur Mahmud
+- 📧 Email: anik955720@gmail.com
+- 🔗 GitHub: https://github.com/mahmud014
+- 🔗 LinkedIn: https://www.linkedin.com/in/md-shukur-mahmud-387439261/
