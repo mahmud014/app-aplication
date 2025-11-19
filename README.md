@@ -16,7 +16,6 @@ QuantumCode is a modern development environment for building web and desktop app
 - Installation
 - Usage
 - Contributing
-- License
 - Contact
 
 ## 📌 About
@@ -24,17 +23,11 @@ QuantumCode helps developers accelerate their workflow with an integrated enviro
 
 ### ✅ Features
 - Modern web and desktop app interface
-
 - Project management with local storage
-
 - Dynamic charts using Recharts
-
 - Alerts and confirmations with SweetAlert2
-
 - Fully responsive design (Desktop & Mobile)
-
 - Custom hooks for state management
-
 - Clean and intuitive UI
 
 ## 💻 Tech Stack
@@ -99,8 +92,6 @@ npm run dev
 - Push (git push origin feature/YourFeature)
 - Create a Pull Request
 
-## 📄 License
-This project is licensed under the MIT License.
 
 ## 👨‍💻 Developer
 - Author: Md. Shukur Mahmud
