@@ -54,7 +54,7 @@ QuantumCode helps developers accelerate their workflow with an integrated enviro
 - Netlify
 
 ## 🔗 Live Demo
-https://quantumcodeapp.netlify.app/
+https://quantumcode-aplication.vercel.app/
 
 ## 🏁 Getting Started
 Follow these steps to run QuantumCode locally.
@@ -63,7 +63,7 @@ Follow these steps to run QuantumCode locally.
 
 ### 1️⃣ Clone the repository
 
-git clone https://github.com/yourusername/quantumcode.git
+git clone https://github.com/mahmud014/app-aplication
 cd quantumcode
 
 
